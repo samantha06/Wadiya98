@@ -31,3 +31,6 @@ body{
 .navbar-brand a:hover , .navbar-brand a:focus{
 	text-decoration: none;
 }
+#nav-list a{
+	color: #fff;
+}
