@@ -1,0 +1,30 @@
+body{
+	font-size: 18px;
+	color: #fff;
+	background-color: #FFD215;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADR **/
+#header-nav {
+	background: rgba(0,0,0,0.1);
+	border-radius: 0;
+	border: 0;
+}
+#logo-img{
+	background: url('../img/logo-white.png') no-repeat;
+	width: 255px;
+	height: 60px;
+	margin: 10px 15px 5px 0;
+}
+.navbar-header a .navbar-brand{
+	color: #fff;
+}
+.navbar-header a h3 .navbar-brand{
+	text-align: right;
+	margin: 0px 15px 15px 0;
+	font-size: 1em;
+}
+.navbar-header a:hover , .navbar-header a:focus {
+	text-decoration: none;
+}
