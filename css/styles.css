@@ -10,6 +10,7 @@ body{
 	background: rgba(0,0,0,0.1);
 	border-radius: 0;
 	border: 0;
+	margin-bottom: 0;
 }
 #logo-img{
 	background: url('../img/logo-white.png') no-repeat;
@@ -17,14 +18,16 @@ body{
 	height: 60px;
 	margin: 10px 15px 5px 0;
 }
-.navbar-header a .navbar-brand{
+.navbar-brand{
+	padding: 0;
+	height: auto;
+}
+.navbar-brand a h1{
 	color: #fff;
-}
-.navbar-header a h3 .navbar-brand{
-	text-align: right;
-	margin: 0px 15px 15px 0;
 	font-size: 1em;
+	text-align: right;
+	margin: 0 15px 15px 0;
 }
-.navbar-header a:hover , .navbar-header a:focus {
+.navbar-brand a:hover , .navbar-brand a:focus{
 	text-decoration: none;
 }
