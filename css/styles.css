@@ -16,7 +16,7 @@ body{
 	background: url('../img/logo-white.png') no-repeat;
 	width: 255px;
 	height: 60px;
-	margin: 10px 15px 5px 0;
+	margin: 10px 15px 5px 15px;
 }
 .navbar-brand{
 	padding: 0;
@@ -63,6 +63,52 @@ body{
 }
 /*END HEADER*/
 
+/* Body */
+.container .jumbotron{
+	padding: 0;	
+}
+
+/* Large devices only */
 @media (min-width: 1200px){
 	
+}
+/* medium devices only */
+@media (min-width: 992px) and (max-width: 1199px ){
+
+}
+/* small devices */
+@media (min-width: 768px) and (max-width: 991px){
+	/* header */
+	#logo-img{
+		background: url('../img/logo-white-small.png') no-repeat;
+		width: 160px;
+		height: 38px;
+		margin: 5px 15px 5px 0;
+	}
+	.navbar-brand a h1{
+		font-size: .8em;
+	}
+}
+/* extra small device */
+@media (max-width: 767px ){
+/*header*/
+	#logo-img{
+		background: url('../img/logo-white-small.png') no-repeat;
+		width: 160px;
+		height: 38px;
+		margin: 5px 15px 5px 20px;
+
+	}
+	.navbar-brand a h1{
+		font-size: .8em;
+	}
+	#call-btn > a{
+		font-size: 1.5em;
+		display: block;
+		margin: 10px 20px 0 20px;
+		padding: 10px;
+		background-color: rgba(0,0,0,0.1);
+		border: 4px solid #fff;
+		color: #fff;
+	}
 }
